@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+    <link type="text/css" rel="stylesheet" href="dice_style.css">
+    <script type="text/javascript" src="dice.js"></script>
+  </head>
+  <body>
+
+    <div class="dice-group">
+      <div id="die01" class="dice-container"></div>
+      <div id="die02" class="dice-container"></div>
+      <div id="die03" class="dice-container"></div>
+      <div id="die04" class="dice-container"></div>
+      <div id="die05" class="dice-container"></div>
+    </div>
+    <button id="roller">Roll</button>
+
+    <script type="text/javascript" src="event.js"></script>
+    <table>
+      <tr>
+        <th>Category</th>
+        <th>Score</th>
+      </tr>
+      <tr>
+        <td>Three Of A Kind</td>
+        <td id ="three"></td>
+      </tr>
+      <tr>
+        <td>Four Of A Kind</td>
+        <td id ="four"> </td>
+      </tr>
+      <tr>
+        <td>Full House</td>
+        <td id ="full"></td>
+      </tr>
+      <tr>
+        <td>Small Straight</td>
+        <td id ="small"></td>
+      </tr>
+      <tr>
+        <td>Large Straight</td>
+        <td id ="large"></td>
+      </tr>
+    </table>
+  </body>
+</html>
